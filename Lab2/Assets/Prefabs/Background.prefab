@@ -99,6 +99,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4371191597265399138}
+  - component: {fileID: 5322072564043092734}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -122,3 +123,18 @@ Transform:
   - {fileID: 6044398213739144453}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!114 &5322072564043092734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4409061958654896981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42dedd1191582c842b0cee01e18c2fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BackgroundScrolling
+  upperborder: 10
+  lowerborder: -8.5
+  speed: 1
