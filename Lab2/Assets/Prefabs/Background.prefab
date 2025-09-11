@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42dedd1191582c842b0cee01e18c2fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundScrolling
-  upperborder: 10
-  lowerborder: -8.5
+  verticalBoundary:
+    max: 10
+    min: -8.5
   speed: 1

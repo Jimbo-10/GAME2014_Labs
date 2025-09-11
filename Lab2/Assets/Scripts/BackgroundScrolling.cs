@@ -3,7 +3,7 @@ using UnityEngine;
 public class BackgroundScrolling : MonoBehaviour
 {
     [SerializeField]
-    float upperborder, lowerborder;
+    Boundary verticalBoundary;
 
     [SerializeField]
     float speed;
@@ -18,9 +18,9 @@ public class BackgroundScrolling : MonoBehaviour
     {
         transform.position = transform.position + Vector3.down * Time.deltaTime;
         
-        if(transform.position.y < lowerborder)
+        if(transform.position.y < verticalBoundary.min)
         {
-            transform.position = new Vector3(transform.position.x, upperborder, transform.position.z);
+            transform.position = new Vector3(transform.position.x, verticalBoundary.max, transform.position.z);
         }
     }
 }
