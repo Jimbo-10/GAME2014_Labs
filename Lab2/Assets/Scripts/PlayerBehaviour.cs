@@ -16,21 +16,50 @@ public class PlayerBehaviour : MonoBehaviour
 
     Vector2 direction;
 
+    public Camera camera;
+
+    public Vector2 destination;
+
+    [SerializeField]
+    bool isMobilePlatform = false;
+
     [SerializeField]
     float speed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        moveInput = inputActions.FindAction("move");   
+        moveInput = inputActions.FindAction("move");
+        camera = Camera.main;
+
+        if (!isMobilePlatform)
+        {
+
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move();
+
+
+
+        MobileInput();
+
+       // Move();
         CheckBoundaries();
     }
 
+    void MobileInput()
+    {
+        /*foreach (Touch touch in Input.touches)
+        {
+            destination = camera.ScreenToWorldPoint(touch.position);
+        }*/
+
+        destination = camera.ScreenToWorldPoint(moveInput.ReadValue<Vector2>());
+        destination = Vector2.Lerp(transform.position, destination, speed * Time.deltaTime);
+        transform.position = destination;
+    }
     void Move()
     {
         direction = moveInput.ReadValue<Vector2>();
