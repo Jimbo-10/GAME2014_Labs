@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 2833884659733814008}
   - component: {fileID: 4049052661491022648}
   - component: {fileID: 1829710233735549540}
+  - component: {fileID: 4422083729259864220}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,3 +113,60 @@ MonoBehaviour:
   horizontalScreenBoundary:
     max: 2
     min: -2
+--- !u!60 &4422083729259864220
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927513102887164477}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.42, y: 0.64}
+    newSize: {x: 0.21, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.04099446, y: 0.32382306}
+      - {x: -0.21, y: 0.32}
+      - {x: -0.21554062, y: -0.10786433}
+      - {x: -0.13107488, y: -0.18233906}
+      - {x: -0.13670248, y: -0.32221624}
+      - {x: 0.07891874, y: -0.32332438}
+      - {x: 0.08788914, y: -0.1810899}
+      - {x: 0.20335129, y: -0.14570186}
+      - {x: 0.20224316, y: 0.24221626}
+      - {x: 0.17891876, y: 0.32221624}
+  m_UseDelaunayMesh: 0
