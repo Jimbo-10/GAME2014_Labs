@@ -30,11 +30,6 @@ public class PlayerBehaviour : MonoBehaviour
     {
         moveInput = inputActions.FindAction("move");
         camera = Camera.main;
-
-        if (!isMobilePlatform)
-        {
-
-        }
     }
 
     // Update is called once per frame
