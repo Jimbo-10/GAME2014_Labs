@@ -25,11 +25,14 @@ public class PlayerBehaviour : MonoBehaviour
 
     [SerializeField]
     float speed;
+
+    GameController gameController;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         moveInput = inputActions.FindAction("move");
         camera = Camera.main;
+        gameController = FindObjectOfType<GameController>();
     }
 
     // Update is called once per frame
@@ -73,6 +76,11 @@ public class PlayerBehaviour : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             Debug.Log("I got hit");
+            gameController.ChangeScore(-5);
+
+            //collision.gameObject.SetActive(false);
+            collision.GetComponent<SpriteRenderer>().enabled = false;
+            collision.enabled = false;
         }
     }
 }

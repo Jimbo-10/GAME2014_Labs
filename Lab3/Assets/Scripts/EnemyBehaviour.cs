@@ -39,5 +39,7 @@ public class EnemyBehaviour : MonoBehaviour
                                                           verticalScreenBoundary.max, transform.position.z);
 
         speed = Random.Range(speedRange.min, speedRange.max);
+        GetComponent<SpriteRenderer>().enabled = true;
+        GetComponent<Collider2D>().enabled = true;
     }
 }
