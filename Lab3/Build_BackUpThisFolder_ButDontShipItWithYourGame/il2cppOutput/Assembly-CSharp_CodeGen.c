@@ -1,0 +1,90 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void BackgroundScrolling_Start_m8116F88EC892A740AFCAE956B6854D69F322EBE0 (void);
+extern void BackgroundScrolling_Update_m29820D3BDDBD6E2DAFEABA534BFBB1116378FD57 (void);
+extern void BackgroundScrolling__ctor_m8951EEEA383062135A7A55A605A6466EFC00939D (void);
+extern void EnemyBehaviour_Start_m4F599CF2331E1882C1E5E1CD70DDA9EB1A6BCCAB (void);
+extern void EnemyBehaviour_Update_m2EFE6BFC451FAA650C9E0BB9317FAE3DA510BD8D (void);
+extern void EnemyBehaviour_Reset_mEEC62F472E59A7487DBE947B96DC7D2F319B0E15 (void);
+extern void EnemyBehaviour__ctor_mB96A4F6156F0ED9E223C3F9F5FBC96385C1E6CB9 (void);
+extern void PlayerBehaviour_Start_mDE9C656A73EE807274C8D95E5822DF5B1700F4A4 (void);
+extern void PlayerBehaviour_Update_mDC3B340DFAA137F0A0C0338EA3FDE360E8A1A2C7 (void);
+extern void PlayerBehaviour_MobileInput_mAEE8258611F01F453271C5352128B01FF1711D43 (void);
+extern void PlayerBehaviour_Move_m1BC0D233712E305672098856FD9A0C8EB093DC79 (void);
+extern void PlayerBehaviour_CheckBoundaries_m60792283D38D0F79EA185F8D2F2271C761FBD122 (void);
+extern void PlayerBehaviour_OnTriggerEnter2D_mD71D18BC79E2A7E41DED9AB3CDF47B5F12D59948 (void);
+extern void PlayerBehaviour__ctor_m90D2257DB5FDA7F58DBC521A6DB0296E49E981A9 (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[18] = 
+{
+	BackgroundScrolling_Start_m8116F88EC892A740AFCAE956B6854D69F322EBE0,
+	BackgroundScrolling_Update_m29820D3BDDBD6E2DAFEABA534BFBB1116378FD57,
+	BackgroundScrolling__ctor_m8951EEEA383062135A7A55A605A6466EFC00939D,
+	EnemyBehaviour_Start_m4F599CF2331E1882C1E5E1CD70DDA9EB1A6BCCAB,
+	EnemyBehaviour_Update_m2EFE6BFC451FAA650C9E0BB9317FAE3DA510BD8D,
+	EnemyBehaviour_Reset_mEEC62F472E59A7487DBE947B96DC7D2F319B0E15,
+	EnemyBehaviour__ctor_mB96A4F6156F0ED9E223C3F9F5FBC96385C1E6CB9,
+	PlayerBehaviour_Start_mDE9C656A73EE807274C8D95E5822DF5B1700F4A4,
+	PlayerBehaviour_Update_mDC3B340DFAA137F0A0C0338EA3FDE360E8A1A2C7,
+	PlayerBehaviour_MobileInput_mAEE8258611F01F453271C5352128B01FF1711D43,
+	PlayerBehaviour_Move_m1BC0D233712E305672098856FD9A0C8EB093DC79,
+	PlayerBehaviour_CheckBoundaries_m60792283D38D0F79EA185F8D2F2271C761FBD122,
+	PlayerBehaviour_OnTriggerEnter2D_mD71D18BC79E2A7E41DED9AB3CDF47B5F12D59948,
+	PlayerBehaviour__ctor_m90D2257DB5FDA7F58DBC521A6DB0296E49E981A9,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[18] = 
+{
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	14063,
+	10693,
+	14063,
+	14063,
+	14063,
+	24001,
+	14063,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	18,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
