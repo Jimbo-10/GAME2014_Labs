@@ -12,6 +12,8 @@ public class EnemyBehaviour : MonoBehaviour
 
     [SerializeField]
     Boundary horizontalScreenBoundary;
+
+    bool IsDying = false;
     
     void Start()
     {
@@ -31,6 +33,25 @@ public class EnemyBehaviour : MonoBehaviour
             Reset();
            
         }
+
+        
+    }
+
+    private void FixedUpdate()
+    {
+        if (IsDying)
+        {
+            transform.Rotate(0, 0, 5);
+            transform.localScale = new Vector3(Mathf.Clamp(transform.localScale.x - 0.05f, 0, 1), Mathf.Clamp(transform.localScale.y - 0.05f, 0, 1), 1);
+        }
+    }
+
+    public void DestroyingSequence()
+    {
+        //GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<Collider2D>().enabled = false;
+        GetComponent<SpriteRenderer>().color = Color.red;
+        IsDying = true;
     }
 
     private void Reset()
@@ -41,5 +62,9 @@ public class EnemyBehaviour : MonoBehaviour
         speed = Random.Range(speedRange.min, speedRange.max);
         GetComponent<SpriteRenderer>().enabled = true;
         GetComponent<Collider2D>().enabled = true;
+        GetComponent<SpriteRenderer>().color = Color.white;
+        IsDying = false;
+        transform.rotation = Quaternion.Euler(Vector3.zero);
+        transform.localScale = Vector3.one;
     }
 }

@@ -78,9 +78,8 @@ public class PlayerBehaviour : MonoBehaviour
             Debug.Log("I got hit");
             gameController.ChangeScore(-5);
 
-            //collision.gameObject.SetActive(false);
-            collision.GetComponent<SpriteRenderer>().enabled = false;
-            collision.enabled = false;
+            collision.GetComponent<EnemyBehaviour>().DestroyingSequence();
+
         }
     }
 }
