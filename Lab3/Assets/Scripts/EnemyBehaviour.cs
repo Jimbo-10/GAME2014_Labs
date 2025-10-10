@@ -13,10 +13,15 @@ public class EnemyBehaviour : MonoBehaviour
     [SerializeField]
     Boundary horizontalScreenBoundary;
 
+    BulletManager bulletManager;
+    GameController gameController;
+
     bool IsDying = false;
     
     void Start()
     {
+        bulletManager = FindObjectOfType<BulletManager>();
+        gameController = FindObjectOfType<GameController>();
         Reset();
     }
 
@@ -54,6 +59,15 @@ public class EnemyBehaviour : MonoBehaviour
         IsDying = true;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Bullet"))
+        {
+            DestroyingSequence();
+            bulletManager.ReturnBullets(collision.gameObject);
+            gameController.ChangeScore(5);
+        }
+    }
     private void Reset()
     {
         transform.position = new Vector3(Random.Range(horizontalScreenBoundary.min, horizontalScreenBoundary.max),
