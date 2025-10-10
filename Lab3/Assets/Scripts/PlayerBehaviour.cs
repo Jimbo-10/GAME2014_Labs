@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -26,6 +27,9 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField]
     float speed;
 
+    [SerializeField]
+    GameObject bulletPrefab;
+
     GameController gameController;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,15 +37,24 @@ public class PlayerBehaviour : MonoBehaviour
         moveInput = inputActions.FindAction("move");
         camera = Camera.main;
         gameController = FindObjectOfType<GameController>();
+        StartCoroutine(ShootingRoutine());
     }
 
     // Update is called once per frame
     void Update()
     {
         MobileInput();
-
        // Move();
-        CheckBoundaries();
+        CheckBoundaries();  
+
+       
+    }
+
+    IEnumerator ShootingRoutine()
+    {
+        yield return new WaitForSeconds(1);
+        Instantiate(bulletPrefab).transform.position = transform.position;
+        StartCoroutine(ShootingRoutine());
     }
 
     void MobileInput()

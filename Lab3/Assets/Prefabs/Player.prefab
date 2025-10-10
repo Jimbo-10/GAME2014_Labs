@@ -116,6 +116,7 @@ MonoBehaviour:
   destination: {x: 0, y: 0}
   isMobilePlatform: 0
   speed: 3
+  bulletPrefab: {fileID: 3088624920695624710, guid: 96bbcb71a71a5fc40bee049d646b434b, type: 3}
 --- !u!60 &-6546653569610124422
 PolygonCollider2D:
   m_ObjectHideFlags: 0
