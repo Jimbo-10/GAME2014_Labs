@@ -7,11 +7,13 @@ public class BulletManager : MonoBehaviour
     [SerializeField]
     int bulletTotal = 50;
 
-    GameObject bulletPrefab;
+    //GameObject bulletPrefab;
     Queue<GameObject> bulletPool = new Queue<GameObject>();
+
+    BulletFactory bulletFactory;
     void Start()
     {
-        bulletPrefab = Resources.Load<GameObject>("Prefabs/Bullet");
+        bulletFactory = FindObjectOfType<BulletFactory>();
 
         for (int i = 0; i < bulletTotal; i++)
         {
@@ -21,7 +23,7 @@ public class BulletManager : MonoBehaviour
 
     void CreateBullet()
     {
-        GameObject bullet = Instantiate(bulletPrefab);
+        GameObject bullet = bulletFactory.CreateBullet();
         bullet.SetActive(false);
         bullet.transform.parent = transform;
         bulletPool.Enqueue(bullet);
