@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2833884659733814008}
   - component: {fileID: 4049052661491022648}
+  - component: {fileID: 1827084731787855053}
   - component: {fileID: 1829710233735549540}
   - component: {fileID: 4422083729259864220}
   - component: {fileID: -2294979636736301501}
@@ -93,6 +94,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1827084731787855053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927513102887164477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32801d38f5903344a3598f68abe2679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+  shootingSpeed: 1
+  tag: 1
 --- !u!114 &1829710233735549540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,6 +129,7 @@ MonoBehaviour:
   horizontalScreenBoundary:
     max: 2
     min: -2
+  shootingSpeed: 0
 --- !u!60 &4422083729259864220
 PolygonCollider2D:
   m_ObjectHideFlags: 0

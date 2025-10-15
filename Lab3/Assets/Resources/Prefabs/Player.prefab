@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2842155274748535115}
   - component: {fileID: 3351679119724705123}
+  - component: {fileID: 6173895877093067208}
   - component: {fileID: 5249567372651404008}
   - component: {fileID: -6546653569610124422}
   - component: {fileID: 3827075892758391027}
@@ -93,6 +94,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6173895877093067208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2891211268714733338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b32801d38f5903344a3598f68abe2679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+  shootingSpeed: 1
+  tag: 0
 --- !u!114 &5249567372651404008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +131,7 @@ MonoBehaviour:
   destination: {x: 0, y: 0}
   isMobilePlatform: 0
   speed: 3
-  bulletPrefab: {fileID: 3088624920695624710, guid: 96bbcb71a71a5fc40bee049d646b434b, type: 3}
+  shootingSpeed: 0.5
 --- !u!60 &-6546653569610124422
 PolygonCollider2D:
   m_ObjectHideFlags: 0

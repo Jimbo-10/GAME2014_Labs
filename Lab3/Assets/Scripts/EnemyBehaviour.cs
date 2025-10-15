@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
@@ -17,7 +19,9 @@ public class EnemyBehaviour : MonoBehaviour
     GameController gameController;
 
     bool IsDying = false;
-    
+
+    [SerializeField]
+    float shootingSpeed;
     void Start()
     {
         bulletManager = FindObjectOfType<BulletManager>();
@@ -38,7 +42,6 @@ public class EnemyBehaviour : MonoBehaviour
             Reset();
            
         }
-
         
     }
 
@@ -55,13 +58,14 @@ public class EnemyBehaviour : MonoBehaviour
     {
         //GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
+        GetComponent<BulletShooter>().StopShooting();
         GetComponent<SpriteRenderer>().color = Color.red;
         IsDying = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Bullet"))
+        if(collision.CompareTag("PlayerBullet"))
         {
             DestroyingSequence();
             bulletManager.ReturnBullets(collision.gameObject);
@@ -80,5 +84,6 @@ public class EnemyBehaviour : MonoBehaviour
         IsDying = false;
         transform.rotation = Quaternion.Euler(Vector3.zero);
         transform.localScale = Vector3.one;
+        GetComponent<BulletShooter>().StartShooting();
     }
 }

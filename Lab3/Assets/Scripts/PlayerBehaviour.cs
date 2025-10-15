@@ -44,7 +44,7 @@ public class PlayerBehaviour : MonoBehaviour
         bulletManager = FindObjectOfType<BulletManager>();
         bulletPrefab = Resources.Load<GameObject>("Prefabs/Bullet");
 
-        StartCoroutine(ShootingRoutine());
+        //StartCoroutine(ShootingRoutine());
     }
 
     // Update is called once per frame
@@ -55,13 +55,13 @@ public class PlayerBehaviour : MonoBehaviour
         CheckBoundaries();  
     }
 
-    IEnumerator ShootingRoutine()
+    /*IEnumerator ShootingRoutine()
     {
         yield return new WaitForSeconds(shootingSpeed);
         //Instantiate(bulletPrefab).transform.position = transform.position;
         bulletManager.GetBullets().transform.position = transform.position;
         StartCoroutine(ShootingRoutine());
-    }
+    }*/
 
     void MobileInput()
     {
@@ -99,6 +99,11 @@ public class PlayerBehaviour : MonoBehaviour
 
             collision.GetComponent<EnemyBehaviour>().DestroyingSequence();
 
+        }
+        else if (collision.CompareTag("EnemyBullet"))
+        {
+            gameController.ChangeScore(-5);
+            FindObjectOfType<BulletManager>().ReturnBullets(collision.gameObject);
         }
     }
 }
