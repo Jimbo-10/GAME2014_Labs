@@ -20,8 +20,10 @@ public class BulletShooter : MonoBehaviour
     {
         yield return new WaitForSeconds(shootingSpeed);
         //Instantiate(bulletPrefab).transform.position = transform.position;
-        GameObject bullet = bulletManager.GetBullets();
+        GameObject bullet = bulletManager.GetBullets(tag);
+        bullet.GetComponent<BulletBehaviour>().bulletTag = tag;
         bullet.transform.position = transform.position;
+        /*bullet.transform.position = transform.position;
         bullet.tag = tag.ToString();
         switch (tag)
         {
@@ -36,8 +38,8 @@ public class BulletShooter : MonoBehaviour
                 bullet.transform.rotation = Quaternion.Euler(0, 0, 180);
                 bullet.GetComponent<SpriteRenderer>().color = Color.green;
                 break;
-        }
-        
+        }*/
+
         StartCoroutine(ShootingRoutine());
     }
 

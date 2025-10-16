@@ -103,7 +103,7 @@ public class PlayerBehaviour : MonoBehaviour
         else if (collision.CompareTag("EnemyBullet"))
         {
             gameController.ChangeScore(-5);
-            FindObjectOfType<BulletManager>().ReturnBullets(collision.gameObject);
+            FindObjectOfType<BulletManager>().ReturnBullets(collision.gameObject, BulletTag.EnemyBullet);
         }
     }
 }

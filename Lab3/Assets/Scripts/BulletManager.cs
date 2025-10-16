@@ -8,41 +8,46 @@ public class BulletManager : MonoBehaviour
     int bulletTotal = 50;
 
     //GameObject bulletPrefab;
-    Queue<GameObject> bulletPool = new Queue<GameObject>();
+    Queue<GameObject> playerBulletPool = new Queue<GameObject>();
+    Queue<GameObject> enemyBulletPool = new Queue<GameObject>();
+    List<Queue<GameObject>> pools = new List<Queue<GameObject>>();
 
     BulletFactory bulletFactory;
     void Start()
     {
         bulletFactory = FindObjectOfType<BulletFactory>();
+        pools.Add(playerBulletPool);
+        pools.Add(enemyBulletPool);
 
         for (int i = 0; i < bulletTotal; i++)
         {
-            CreateBullet();
+            CreateBullet(BulletTag.PlayerBullet);
+            CreateBullet(BulletTag.EnemyBullet);
         }
     }
 
-    void CreateBullet()
+    void CreateBullet(BulletTag tag)
     {
-        GameObject bullet = bulletFactory.CreateBullet();
+        GameObject bullet = bulletFactory.CreateBullet(tag);
         bullet.SetActive(false);
         bullet.transform.parent = transform;
-        bulletPool.Enqueue(bullet);
+        pools[(int)tag].Enqueue(bullet);
     }
-    public GameObject GetBullets()
+    public GameObject GetBullets(BulletTag tag)
     {
-        if(bulletPool.Count == 0)
+        if (pools[(int)tag].Count == 0)
         {
             Debug.LogError("No Bullet left in the queue");
-            CreateBullet();
+            CreateBullet(tag);
         }
-        GameObject bullet = bulletPool.Dequeue();
+        GameObject bullet = pools[(int)tag].Dequeue();
         bullet.SetActive(true);
         return bullet;
     }
 
-    public void ReturnBullets(GameObject bullet)
+    public void ReturnBullets(GameObject bullet, BulletTag tag)
     {
         bullet.SetActive(false);
-        bulletPool.Enqueue(bullet);
+        pools[(int)tag].Enqueue(bullet);
     }
 }

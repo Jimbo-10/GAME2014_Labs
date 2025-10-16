@@ -10,6 +10,8 @@ public class BulletBehaviour : MonoBehaviour
 
     Vector3 direction;
     BulletManager bulletManager;
+    
+    public BulletTag bulletTag;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,10 +23,10 @@ public class BulletBehaviour : MonoBehaviour
     void Update()
     {
         transform.position = transform.position + direction * speed * Time.deltaTime;
-        if(transform.position.y > verticalBoundary.max)
+        if(transform.position.y > verticalBoundary.max || transform.position.y < verticalBoundary.min)
         {
             //Destroy(gameObject);
-            bulletManager.ReturnBullets(gameObject);
+            bulletManager.ReturnBullets(gameObject, bulletTag);
         }
     }
 
