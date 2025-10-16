@@ -58,7 +58,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         //GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<Collider2D>().enabled = false;
-        GetComponent<BulletShooter>().StopShooting();
+        //GetComponent<BulletShooter>().StopShooting();
         GetComponent<SpriteRenderer>().color = Color.red;
         IsDying = true;
     }
@@ -84,6 +84,6 @@ public class EnemyBehaviour : MonoBehaviour
         IsDying = false;
         transform.rotation = Quaternion.Euler(Vector3.zero);
         transform.localScale = Vector3.one;
-        GetComponent<BulletShooter>().StartShooting();
+        //GetComponent<BulletShooter>().StartShooting();
     }
 }

@@ -11,7 +11,7 @@ public class BulletBehaviour : MonoBehaviour
     Vector3 direction;
     BulletManager bulletManager;
     
-    public BulletTag bulletTag;
+    BulletTag bulletTag;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,5 +33,10 @@ public class BulletBehaviour : MonoBehaviour
     public void SetDirection(Vector3 dir) 
     { 
         direction = dir;
+    }
+
+    public void SetTag(BulletTag btag)
+    {
+        bulletTag = btag;
     }
 }

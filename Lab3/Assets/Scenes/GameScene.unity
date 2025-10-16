@@ -1000,6 +1000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6173895877093067208, guid: f0709f21362601145b7ebca0b8f1acf9, type: 3}
+      propertyPath: tag
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1070,10 +1074,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1827084731787855053, guid: 5c34d6e8937dfa14a8041dea9f34a1db, type: 3}
-      propertyPath: shootingSpeed
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1927513102887164477, guid: 5c34d6e8937dfa14a8041dea9f34a1db, type: 3}
       propertyPath: m_Name
       value: Enemy

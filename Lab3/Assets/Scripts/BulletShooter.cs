@@ -18,32 +18,14 @@ public class BulletShooter : MonoBehaviour
     }
     IEnumerator ShootingRoutine()
     {
-        yield return new WaitForSeconds(shootingSpeed);
-        //Instantiate(bulletPrefab).transform.position = transform.position;
+        yield return new WaitForSeconds(shootingSpeed); 
         GameObject bullet = bulletManager.GetBullets(tag);
-        bullet.GetComponent<BulletBehaviour>().bulletTag = tag;
         bullet.transform.position = transform.position;
-        /*bullet.transform.position = transform.position;
-        bullet.tag = tag.ToString();
-        switch (tag)
-        {
-            case BulletTag.PlayerBullet:
-                bullet.GetComponent<BulletBehaviour>().SetDirection(new Vector3(0, 1, 0));
-                bullet.transform.rotation = Quaternion.Euler(0, 0, 0);
-                bullet.GetComponent<SpriteRenderer>().color = Color.white;
-                break;
-
-            case BulletTag.EnemyBullet:
-                bullet.GetComponent<BulletBehaviour>().SetDirection(new Vector3(0, -1, 0));
-                bullet.transform.rotation = Quaternion.Euler(0, 0, 180);
-                bullet.GetComponent<SpriteRenderer>().color = Color.green;
-                break;
-        }*/
 
         StartCoroutine(ShootingRoutine());
     }
 
-    public void StopShooting()
+   /* public void StopShooting()
     {
         StopAllCoroutines();
     }
@@ -51,5 +33,5 @@ public class BulletShooter : MonoBehaviour
     public void StartShooting()
     {
         StartCoroutine(ShootingRoutine());
-    }
+    }*/
 }

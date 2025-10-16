@@ -32,8 +32,6 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField]
     float shootingSpeed;
 
-    BulletManager bulletManager;
-
     GameController gameController;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,8 +39,6 @@ public class PlayerBehaviour : MonoBehaviour
         moveInput = inputActions.FindAction("move");
         camera = Camera.main;
         gameController = FindObjectOfType<GameController>();
-        bulletManager = FindObjectOfType<BulletManager>();
-        bulletPrefab = Resources.Load<GameObject>("Prefabs/Bullet");
 
         //StartCoroutine(ShootingRoutine());
     }

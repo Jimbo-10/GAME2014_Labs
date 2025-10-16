@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5551502305109635394}
   - component: {fileID: 4577790911059273023}
   m_Layer: 0
-  m_Name: Bullet
-  m_TagString: Bullet
+  m_Name: PlayerBullet
+  m_TagString: PlayerBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,7 +108,6 @@ MonoBehaviour:
   verticalBoundary:
     max: 6.2
     min: -4.5
-  bulletTag: 0
 --- !u!70 &4577790911059273023
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

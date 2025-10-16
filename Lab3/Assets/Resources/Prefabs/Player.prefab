@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
   shootingSpeed: 1
-  tag: 0
+  tag: 1
 --- !u!114 &5249567372651404008
 MonoBehaviour:
   m_ObjectHideFlags: 0
