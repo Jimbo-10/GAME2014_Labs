@@ -1074,7 +1074,7 @@ IL2CPP_EXTERN_C intptr_t DEFAULT_CALL Unity_AdaptivePerformance_Hint_GetPluginCa
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81291
+// Method Definition Index: 81312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tBA0611114D6C3C20E7B9107A6B7BC286B0CAF31E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m629C02D58B961FC3AE18C748626D9425DB2CDF9D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1108,7 +1108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tBA0611114D6C3C20E7B9107A6B7BC
 		return L_6;
 	}
 }
-// Method Definition Index: 81292
+// Method Definition Index: 81313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mAACDF28E06A59146CD89882C624DB3401164B396 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t181F1189ACDC72B29CA884D163C336FEE96B940F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1194,7 +1194,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tBA0611114D6C3C20E7B9107A6B7BC286B0CAF31E_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81293
+// Method Definition Index: 81314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ADPFLog_Debug_m9B0DAABF53FD2AC4E9B4DCC0E5B1E54A10343963 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1247,7 +1247,7 @@ IL_002f:
 		return;
 	}
 }
-// Method Definition Index: 81294
+// Method Definition Index: 81315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ADPFLog__cctor_mBF048A13C60B0908E3897E0CCFC2C640203E9EBB (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1273,7 +1273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ADPFLog__cctor_mBF048A13C60B0908E3897E0C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81295
+// Method Definition Index: 81316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdaptivePerformanceSubsystemDescriptor_t5D0468D8D509E8995FBDCD5DE6EF6F293B16DC82* GoogleAndroidAdaptivePerformanceSubsystem_RegisterDescriptor_mF509BAF88743503A2F042C389ADF9DCC0BBD9E68 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1328,7 +1328,7 @@ IL_0009:
 		return L_6;
 	}
 }
-// Method Definition Index: 81296
+// Method Definition Index: 81317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystem__ctor_m95B32EC41469BA3E28C1CCF1A110BD66CF6D154C (GoogleAndroidAdaptivePerformanceSubsystem_t933A3A07968674A6D180FF373D2A08BD93366ADC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1344,7 +1344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81297
+// Method Definition Index: 81318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleAndroidAdaptivePerformanceSubsystemProvider_get_ApplicationLifecycle_m013CD2448C78548F6D53B27C583AFCFD736C05E4 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1352,7 +1352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleAndroidAdaptivePerforman
 		return __this;
 	}
 }
-// Method Definition Index: 81298
+// Method Definition Index: 81319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleAndroidAdaptivePerformanceSubsystemProvider_get_PerformanceLevelControl_m9861891D8E52F3D65A89E47AB0EBBAB3E8E19323 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1360,7 +1360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleAndroidAdaptivePerforman
 		return __this;
 	}
 }
-// Method Definition Index: 81299
+// Method Definition Index: 81320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleAndroidAdaptivePerformanceSubsystemProvider_get_MaxCpuPerformanceLevel_m38FA87EB54AAC037B6D4DE6AC11C48497712F848 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1369,7 +1369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleAndroidAdaptivePerformanceSubsy
 		return L_0;
 	}
 }
-// Method Definition Index: 81300
+// Method Definition Index: 81321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_set_MaxCpuPerformanceLevel_mED8C3E594C067B37C799998887838E9E588AA127 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1379,7 +1379,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81301
+// Method Definition Index: 81322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleAndroidAdaptivePerformanceSubsystemProvider_get_MaxGpuPerformanceLevel_mBDF2232A8EA54D09480A50528204AC05E3EFFAB1 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1388,7 +1388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleAndroidAdaptivePerformanceSubsy
 		return L_0;
 	}
 }
-// Method Definition Index: 81302
+// Method Definition Index: 81323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_set_MaxGpuPerformanceLevel_mBA9107DD747A58A50276756777FC59D2B07858BF (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -1398,7 +1398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81303
+// Method Definition Index: 81324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider__ctor_m403D84057EDAA7ACF6B064BA1190C9AF859906BD (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1435,7 +1435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81304
+// Method Definition Index: 81325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_OnPerformanceWarning_mDBDFC22E336DCE9B9F8D24C8C7D81556F0907655 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, int32_t ___0_warningLevel, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -1499,7 +1499,7 @@ IL_003c:
 		return;
 	}
 }
-// Method Definition Index: 81305
+// Method Definition Index: 81326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_ImmediateUpdateTemperature_m361D3E2240F9316445395F3AC4E007EE7CFFEED3 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -1587,7 +1587,7 @@ IL_006b:
 		return;
 	}
 }
-// Method Definition Index: 81306
+// Method Definition Index: 81327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_TimedUpdateTemperature_m54644627708124C0C2EEA46B9F530046503D47B0 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
@@ -1713,7 +1713,7 @@ IL_0094:
 		return;
 	}
 }
-// Method Definition Index: 81307
+// Method Definition Index: 81328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_ImmediateUpdateThermalStatus_m147015BEFF14A1EB4A873F35CDC5A7063E37F09F (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1802,7 +1802,7 @@ IL_0061:
 		return;
 	}
 }
-// Method Definition Index: 81308
+// Method Definition Index: 81329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_ImmediateUpdatePerformanceMode_m69431CD313B98DCE8EA279AA13541A76E6CA59FA (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -1913,7 +1913,7 @@ IL_008e:
 		return;
 	}
 }
-// Method Definition Index: 81309
+// Method Definition Index: 81330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsystemProvider_TryInitialize_m2B33E05E8A4D9651E53213CF6067F321A85B93E1 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2111,7 +2111,7 @@ IL_00ef:
 		return L_25;
 	}
 }
-// Method Definition Index: 81310
+// Method Definition Index: 81331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_Start_mB7A65C962855EE833C0BBB40582C6C274E2FCE82 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2223,7 +2223,7 @@ IL_007a:
 		return;
 	}
 }
-// Method Definition Index: 81311
+// Method Definition Index: 81332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_Stop_m209AB1613002028F0395BF3BBDA6B66F87922358 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2233,7 +2233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81312
+// Method Definition Index: 81333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_Destroy_m07139BC9BCC451404FA3321501B845145BE8932E (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2312,7 +2312,7 @@ IL_003f:
 		return;
 	}
 }
-// Method Definition Index: 81313
+// Method Definition Index: 81334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleAndroidAdaptivePerformanceSubsystemProvider_get_Stats_m87E6FA01799958A45757A2100D07FB5157C274CB (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2335,7 +2335,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleAndroidAdaptivePerformanceSub
 		return L_6;
 	}
 }
-// Method Definition Index: 81314
+// Method Definition Index: 81335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83 GoogleAndroidAdaptivePerformanceSubsystemProvider_Update_m8D95D783DDED3E70446834C7ECE43BC0CB2B1EB2 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
@@ -2420,7 +2420,7 @@ IL_005a:
 		return L_11;
 	}
 }
-// Method Definition Index: 81315
+// Method Definition Index: 81336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* GoogleAndroidAdaptivePerformanceSubsystemProvider_get_Version_m03E42B4F87E10B21826C2DDF1323767DF4908BC5 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2429,7 +2429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B82
 		return L_0;
 	}
 }
-// Method Definition Index: 81316
+// Method Definition Index: 81337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleAndroidAdaptivePerformanceSubsystemProvider_get_Capabilities_mD8197F46059C64E4AB6899D28DFDFC7FEB565939 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2438,7 +2438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleAndroidAdaptivePerformanceSubsy
 		return L_0;
 	}
 }
-// Method Definition Index: 81317
+// Method Definition Index: 81338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_set_Capabilities_m60DA0C406594BD6F2353DFE2F9D12AD48595708C (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2448,7 +2448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81318
+// Method Definition Index: 81339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsystemProvider_get_Initialized_mF7E5707748061126B112834A0D3E19E65563459D (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2457,7 +2457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsyste
 		return L_0;
 	}
 }
-// Method Definition Index: 81319
+// Method Definition Index: 81340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_set_Initialized_m411644DFD2BCE4179C86185B5D5C5037C3A286E0 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -2467,7 +2467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81320
+// Method Definition Index: 81341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsystemProvider_SetPerformanceLevel_m88223B8BC73951CDB30B159941B50855188E380E (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, int32_t* ___0_cpuLevel, int32_t* ___1_gpuLevel, const RuntimeMethod* method) 
 {
 	{
@@ -2475,7 +2475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsyste
 		return (bool)0;
 	}
 }
-// Method Definition Index: 81321
+// Method Definition Index: 81342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsystemProvider_EnableCpuBoost_mAA66E2817D751484B3AB422A3869E1E665AA0A51 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2483,7 +2483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsyste
 		return (bool)0;
 	}
 }
-// Method Definition Index: 81322
+// Method Definition Index: 81343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsystemProvider_EnableGpuBoost_m91BF74AE5FAD45897D2E770CDEA5E254D95EAA4E (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2491,7 +2491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidAdaptivePerformanceSubsyste
 		return (bool)0;
 	}
 }
-// Method Definition Index: 81323
+// Method Definition Index: 81344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_ApplicationPause_m48A234E614BEB6E3C442BC830829E76D86C03465 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2499,7 +2499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81324
+// Method Definition Index: 81345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_ApplicationResume_mB89100452B4858C3A52FA5AB67BBC5673CB9FB44 (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2511,7 +2511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsyste
 		return;
 	}
 }
-// Method Definition Index: 81325
+// Method Definition Index: 81346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_UpdateTemperatureLevel_mD6F3837F8B71759B36F783AE9E89FDEA227E24AC (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2570,7 +2570,7 @@ IL_003d:
 		return;
 	}
 }
-// Method Definition Index: 81326
+// Method Definition Index: 81347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider__cctor_m8C06704BAEEBF035B4B9523FFA8FB1B78C9CA968 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2603,7 +2603,7 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_NativeApi_OnHighTempWarning_m
 	NativeApi_OnHighTempWarning_mE7510E2EC193CC27B5F5FA4146FC6B2B3FB75633(___0_warningLevel, NULL);
 
 }
-// Method Definition Index: 81327
+// Method Definition Index: 81348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi__ctor_m18BB824772043A601D116397265D9224EBAAB650 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, Action_1_t87D266BDCAC7E2FA2FA9733C3E286D256FCFFFFA* ___0_sustainedPerformanceWarning, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2641,7 +2641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi__ctor_m18BB824772043A601D11639
 		return;
 	}
 }
-// Method Definition Index: 81328
+// Method Definition Index: 81349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_OnHighTempWarning_mE7510E2EC193CC27B5F5FA4146FC6B2B3FB75633 (int32_t ___0_warningLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2717,7 +2717,7 @@ IL_0032:
 		return;
 	}
 }
-// Method Definition Index: 81329
+// Method Definition Index: 81350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetApiLevel_mDCC06C02723BE24839E210750F5EF89BE709CA61 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2798,7 +2798,7 @@ IL_002e:
 		return L_6;
 	}
 }
-// Method Definition Index: 81330
+// Method Definition Index: 81351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsAvailable_m8A2D6657CA6D4E11F9ABCC894B348D4C534C23DF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2815,7 +2815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsAvailable_m8A2D6657CA6D4E11F
 		return (bool)((((int32_t)((((int32_t)L_0) < ((int32_t)((int32_t)30)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 81331
+// Method Definition Index: 81352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsThermalStatusValid_m5B9BF6C7D4E07B57B388ECA6694CD93F7A87B600 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2832,7 +2832,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_IsThermalStatusValid_m5B9BF6C7
 		return (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 81332
+// Method Definition Index: 81353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_ThermalSetup_m95D52A552FCEEC366034BFFF3C5BE5EAB8652FE8 (intptr_t ___0__onHighTempWarning, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -2853,7 +2853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_ThermalSetup_m95D52A552FCEEC36
 	#endif
 
 }
-// Method Definition Index: 81333
+// Method Definition Index: 81354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_ThermalTeardown_mDC5FDCBEE637834E8E3168A4194D4A6C14AC6DA9 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -2874,7 +2874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_ThermalTeardown_mDC5FDCBEE6378
 	#endif
 
 }
-// Method Definition Index: 81334
+// Method Definition Index: 81355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetLatestThermalStatus_m5E979E52DBE69DB9CFADBA15E65F25138F4F274F (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -2896,7 +2896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetLatestThermalStatus_m5E9
 
 	return returnValue;
 }
-// Method Definition Index: 81335
+// Method Definition Index: 81356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeApi_GetThermalPluginCallback_m337804C3601969FD2BB7C8AC5ABEB64184E3A8B4 (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -2918,7 +2918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeApi_GetThermalPluginCallback_m
 
 	return returnValue;
 }
-// Method Definition Index: 81336
+// Method Definition Index: 81357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetThermalHeadroomForSeconds_mA8490E6F63E10ED9F4726B73C6C46009E8F442B9 (int32_t ___0_forecastSeconds, const RuntimeMethod* method) 
 {
 	typedef double (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -2940,7 +2940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetThermalHeadroomForSeconds
 
 	return returnValue;
 }
-// Method Definition Index: 81337
+// Method Definition Index: 81358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_HintMultithreaded_m0DA8551CF2C517A3676BB623D84A41BBB22AE42C (const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -2962,7 +2962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_HintMultithreaded_m0DA8551CF2C
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 81338
+// Method Definition Index: 81359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_HintCreateSession_m3A0328467B2DC8D7CC969C34A0580737D3B454EA (bool ___0_mainThread, bool ___1_gfxThread, int64_t ___2_desiredDuration, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int64_t);
@@ -2984,7 +2984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_HintCreateSession_m3A032846
 
 	return returnValue;
 }
-// Method Definition Index: 81339
+// Method Definition Index: 81360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_HintTeardown_m59560C54B553D5A9002899AA3F95CCA3D0D3FD29 (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -3005,7 +3005,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_HintTeardown_m59560C54B553D5A9
 	#endif
 
 }
-// Method Definition Index: 81340
+// Method Definition Index: 81361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_ReportCompletionTimes_m3F10730AB14C7C9BC7C29D48EFA5C057C0DF77B9 (int32_t ___0_session, int64_t ___1_totalDuration, int64_t ___2_cpuDuration, int64_t ___3_gpuDuration, int64_t ___4_workStart, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int64_t, int64_t, int64_t, int64_t);
@@ -3026,7 +3026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_ReportCompletionTimes_m3F10730
 	#endif
 
 }
-// Method Definition Index: 81341
+// Method Definition Index: 81362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_UpdateTargetWorkDuration_mC56ACA3291EEAA8374B2BF21EFF24E29334DEEB0 (int32_t ___0_session, int64_t ___1_targetDuration, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int64_t);
@@ -3047,7 +3047,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_UpdateTargetWorkDuration_mC56A
 	#endif
 
 }
-// Method Definition Index: 81342
+// Method Definition Index: 81363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeApi_GetHintPluginCallback_mC7FA408CD484E3FD26BC545C7D611221E984CF5B (const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) ();
@@ -3069,7 +3069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t NativeApi_GetHintPluginCallback_mC7F
 
 	return returnValue;
 }
-// Method Definition Index: 81343
+// Method Definition Index: 81364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_SetupThermal_m424791B419E49A5A5E5300EEFD4F93C13A39815C (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3123,7 +3123,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 81344
+// Method Definition Index: 81365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetThermalHeadroom_m19DC5618A7A51804FD6CC506C8AC7AEB47D7CAA5 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, int32_t ___0_forecastInSeconds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3141,7 +3141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double NativeApi_GetThermalHeadroom_m19DC5618
 		return L_1;
 	}
 }
-// Method Definition Index: 81345
+// Method Definition Index: 81366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetThermalStatusWarningLevel_m89D85AFB3055DFFC65EFDED4E604106451FC90B9 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3194,7 +3194,7 @@ IL_0016:
 		return L_3;
 	}
 }
-// Method Definition Index: 81346
+// Method Definition Index: 81367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NativeApi_GetDesiredDuration_mCE240A41C12C369557AEDC2A0A4A7A886881F2D1 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3230,7 +3230,7 @@ IL_000d:
 		return il2cpp_codegen_cast_double_to_int<int64_t>(((double)il2cpp_codegen_multiply(((double)((1.0)/((double)L_2))), (1000000000.0))));
 	}
 }
-// Method Definition Index: 81347
+// Method Definition Index: 81368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NativeApi_GetDesiredTotalDuration_m7B1B7CAA56E666782932D6AD91224DDFD9816D79 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, int64_t ___0_desiredDuration, int64_t ___1_totalDuration, const RuntimeMethod* method) 
 {
 	{
@@ -3271,7 +3271,7 @@ IL_0012:
 		return ((int64_t)il2cpp_codegen_multiply(L_6, ((int64_t)3)));
 	}
 }
-// Method Definition Index: 81348
+// Method Definition Index: 81369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NativeApi_DoubleMsToNanos_mE0953198B5386E92C7D1F47E107BB796F0C30EA0 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, double ___0_time, const RuntimeMethod* method) 
 {
 	{
@@ -3280,7 +3280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t NativeApi_DoubleMsToNanos_mE0953198B5
 		return il2cpp_codegen_cast_double_to_int<int64_t>(((double)il2cpp_codegen_multiply(L_0, (1000000.0))));
 	}
 }
-// Method Definition Index: 81349
+// Method Definition Index: 81370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_SetupHints_m44E7CD0D82BE6168674365D3A40803CEBFF7F11D (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3421,7 +3421,7 @@ IL_0086:
 		return L_21;
 	}
 }
-// Method Definition Index: 81350
+// Method Definition Index: 81371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi_UpdateHintSystem_m02D850D985BF5275DF7A9725DAD8D3781B90FB35 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3587,7 +3587,7 @@ IL_0101:
 		return;
 	}
 }
-// Method Definition Index: 81351
+// Method Definition Index: 81372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetGameMode_m7005D87BC37D7FEF81A6BAB101654778DB5CF6A6 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3597,7 +3597,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetGameMode_m7005D87BC37D7F
 		return L_0;
 	}
 }
-// Method Definition Index: 81352
+// Method Definition Index: 81373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableCpuBoost_m949FACD67B439544138FC9F5FB0AE174B372BE06 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3605,7 +3605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableCpuBoost_m949FACD67B4395
 		return (bool)0;
 	}
 }
-// Method Definition Index: 81353
+// Method Definition Index: 81374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableGpuBoost_mB9619D78F651F23DF5355C200C7EF94C9D88A7BB (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3613,7 +3613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeApi_EnableGpuBoost_mB9619D78F651F2
 		return (bool)0;
 	}
 }
-// Method Definition Index: 81354
+// Method Definition Index: 81375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetClusterInfo_m9DCD72EAED183313BBD1B6947796C7E5BD3C6674 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3622,7 +3622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetClusterInfo_m9DCD72EAED1
 		return ((int32_t)-999);
 	}
 }
-// Method Definition Index: 81355
+// Method Definition Index: 81376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxCpuPerformanceLevel_m18DAB3025574F2B4B75598BAFC96F7A128F56BCD (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3631,7 +3631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxCpuPerformanceLevel_m
 		return (-1);
 	}
 }
-// Method Definition Index: 81356
+// Method Definition Index: 81377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxGpuPerformanceLevel_mFB59B6D37081BCAF11A8C8AB2B21058C0C3F9733 (NativeApi_t00A35B11AEF3A25E587839867B4B334CC6CDC674* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3640,7 +3640,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeApi_GetMaxGpuPerformanceLevel_m
 		return (-1);
 	}
 }
-// Method Definition Index: 81357
+// Method Definition Index: 81378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi__cctor_m4922B02CA35C25A9D5E09FFBD9195C7B8F40AA7F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3678,7 +3678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeApi__cctor_m4922B02CA35C25A9D5E09F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81358
+// Method Definition Index: 81379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_get_Initialized_mC1804AF9E061D654F97AA47201D40D7A9905DF6A (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3688,7 +3688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_get_Initiali
 		return (bool)((!(((RuntimeObject*)(GoogleAndroidAdaptivePerformanceSubsystem_t933A3A07968674A6D180FF373D2A08BD93366ADC*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 81359
+// Method Definition Index: 81380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_get_Running_m149106697E43ACD694C5F1E366BE4C73FA9AC616 (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3714,7 +3714,7 @@ IL_0014:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 81360
+// Method Definition Index: 81381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleAndroidAdaptivePerformanceSubsystem_t933A3A07968674A6D180FF373D2A08BD93366ADC* GoogleAndroidProviderLoader_get_googleAndroidSubsystem_mE6CB5A14C5D46E2ACACCB75EB25F4326E1A8CEFD (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3730,7 +3730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleAndroidAdaptivePerformanceSubsystem_t93
 		return L_0;
 	}
 }
-// Method Definition Index: 81361
+// Method Definition Index: 81382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleAndroidProviderLoader_GetDefaultSubsystem_mCEE2D4521E876F6FC72E1C25F58EF486996CF12D (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3740,7 +3740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GoogleAndroidProviderLoader_Ge
 		return L_0;
 	}
 }
-// Method Definition Index: 81362
+// Method Definition Index: 81383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IAdaptivePerformanceSettings_tFB49C60F821F093D3F18E8DC115E7D929E6C86C8* GoogleAndroidProviderLoader_GetSettings_mCC5A4DED1280EA83C22C045A214132F6659BEA9F (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3750,7 +3750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IAdaptivePerformanceSettings_tFB49C60F821F093
 		return L_0;
 	}
 }
-// Method Definition Index: 81363
+// Method Definition Index: 81384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_Initialize_m86D01E49FB0C1F31F33576697E929B6EB2FE89B4 (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3790,7 +3790,7 @@ IL_0022:
 		return (bool)((!(((RuntimeObject*)(GoogleAndroidAdaptivePerformanceSubsystem_t933A3A07968674A6D180FF373D2A08BD93366ADC*)L_2) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 81364
+// Method Definition Index: 81385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_Start_m75E89F3706D8831D14885425B90277682407AA87 (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3806,7 +3806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_Start_m75E89
 		return (bool)1;
 	}
 }
-// Method Definition Index: 81365
+// Method Definition Index: 81386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_Stop_m28F2BA0689AA6AAFC4F591439C1AE9DB0B9DC376 (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3822,7 +3822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_Stop_m28F2BA
 		return (bool)1;
 	}
 }
-// Method Definition Index: 81366
+// Method Definition Index: 81387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_Deinitialize_m6F282A2E9343E71DA212F8CCC3818C52FE728D38 (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3840,7 +3840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderLoader_Deinitialize
 		return L_0;
 	}
 }
-// Method Definition Index: 81367
+// Method Definition Index: 81388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderLoader__ctor_m79CF5D2E39CAF71877D581B3196D95C477F9ABD4 (GoogleAndroidProviderLoader_tC1545643EEFF784CFF99E72A9AB7087FE5E674CB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3848,7 +3848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderLoader__ctor_m79CF5
 		return;
 	}
 }
-// Method Definition Index: 81368
+// Method Definition Index: 81389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderLoader__cctor_m54593B94DDFFFB4160D01ACCAF97554B70FF702B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3877,7 +3877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderLoader__cctor_m5459
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81369
+// Method Definition Index: 81390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderSettings_get_googleProviderLogging_m43C3CC6A1929D51438ECFC7ACD7442F7050BA396 (GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3886,7 +3886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderSettings_get_google
 		return L_0;
 	}
 }
-// Method Definition Index: 81370
+// Method Definition Index: 81391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings_set_googleProviderLogging_m4276DE46E8FB3C35909B572F14E75434DFE00721 (GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -3897,7 +3897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings_set_google
 		return;
 	}
 }
-// Method Definition Index: 81371
+// Method Definition Index: 81392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderSettings_get_frameStatsDialogDisplayed_m2F9D0BA41B1493FA68986919F4BEB7D91DAAAE07 (GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3906,7 +3906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleAndroidProviderSettings_get_frameS
 		return L_0;
 	}
 }
-// Method Definition Index: 81372
+// Method Definition Index: 81393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings_set_frameStatsDialogDisplayed_mBB2CFFABD7498A2395AA65F38C8B557FE099C3FB (GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -3917,7 +3917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings_set_frameS
 		return;
 	}
 }
-// Method Definition Index: 81373
+// Method Definition Index: 81394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings_Awake_m5EF529082BE4AE47399D21624761AFDD4CC1FDED (GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3934,7 +3934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings_Awake_m5EF
 		return;
 	}
 }
-// Method Definition Index: 81374
+// Method Definition Index: 81395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* GoogleAndroidProviderSettings_GetSettings_mC0C0E6107DA108DFEECE8FD9FDE35EAC75DFA0F2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3950,7 +3950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleAndroidProviderSettings_t27887B9D83C268
 		return L_0;
 	}
 }
-// Method Definition Index: 81375
+// Method Definition Index: 81396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings__ctor_m4A4532BBDA4E9242763A3AF3832F3A0DAC203A15 (GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3966,7 +3966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleAndroidProviderSettings__ctor_m4A4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 81376
+// Method Definition Index: 81397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceModeUtilities_ConvertGameModeToPerformanceMode_m76D859ECFE91D0CEA56ECB3553CC075471F5F1C3 (int32_t ___0_gameMode, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -4027,7 +4027,7 @@ IL_0024:
 		return L_1;
 	}
 }
-// Method Definition Index: 81377
+// Method Definition Index: 81398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PerformanceModeUtilities_ConvertPerformanceModeToGameMode_m6D0E5216EBFEFC7F1977F4487D95013530BB4C85 (int32_t ___0_performanceMode, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -4123,7 +4123,7 @@ IL_002c:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 81369
+// Method Definition Index: 81390
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool GoogleAndroidProviderSettings_get_googleProviderLogging_m43C3CC6A1929D51438ECFC7ACD7442F7050BA396_inline (GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4132,7 +4132,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool GoogleAndroidProviderSetting
 		return L_0;
 	}
 }
-// Method Definition Index: 81374
+// Method Definition Index: 81395
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GoogleAndroidProviderSettings_t27887B9D83C268491F7D5F2E9CD9C9E8C182F996* GoogleAndroidProviderSettings_GetSettings_mC0C0E6107DA108DFEECE8FD9FDE35EAC75DFA0F2_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4148,7 +4148,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GoogleAndroidProviderSettings_t27
 		return L_0;
 	}
 }
-// Method Definition Index: 77024
+// Method Definition Index: 77045
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_m77027979E9BA297A2803C6EA7691881619C35F91_inline (Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4159,7 +4159,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_id_m77027979E9BA29
 		return;
 	}
 }
-// Method Definition Index: 77026
+// Method Definition Index: 77047
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_mE7F2A87EA82917E26391F16464ADF35CA8A8CD19_inline (Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4170,7 +4170,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_providerType_mE7F2
 		return;
 	}
 }
-// Method Definition Index: 77028
+// Method Definition Index: 77049
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemTypeOverride_mE90E2B1A438FE40025C78836845E76876630DC34_inline (Cinfo_t016018D78B642CAAA7B595015B8AF98E5F1008DB* __this, Type_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4181,7 +4181,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Cinfo_set_subsystemTypeOverr
 		return;
 	}
 }
-// Method Definition Index: 81300
+// Method Definition Index: 81321
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_set_MaxCpuPerformanceLevel_mED8C3E594C067B37C799998887838E9E588AA127_inline (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4191,7 +4191,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerform
 		return;
 	}
 }
-// Method Definition Index: 81302
+// Method Definition Index: 81323
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerformanceSubsystemProvider_set_MaxGpuPerformanceLevel_mBA9107DD747A58A50276756777FC59D2B07858BF_inline (GoogleAndroidAdaptivePerformanceSubsystemProvider_t548CCA4D47CF64BE0D33CDB04A42CAC610266A5A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4201,7 +4201,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleAndroidAdaptivePerform
 		return;
 	}
 }
-// Method Definition Index: 76953
+// Method Definition Index: 76974
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceDataRecord_get_ChangeFlags_m83DE31AF3877A2A1507A6703B190533FD166B9B7_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4210,7 +4210,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceDataRecord_get
 		return L_0;
 	}
 }
-// Method Definition Index: 76954
+// Method Definition Index: 76975
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_ChangeFlags_mE99AA127E129C78872D68F5C650D55B8E5D33DC8_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4220,7 +4220,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_Ch
 		return;
 	}
 }
-// Method Definition Index: 76960
+// Method Definition Index: 76981
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_WarningLevel_mBC3853B7D0AA1412C41DFD248FA9E7252DAEB5F4_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4230,7 +4230,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_Wa
 		return;
 	}
 }
-// Method Definition Index: 76956
+// Method Definition Index: 76977
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_TemperatureLevel_mFC2BC8E019EFB0E7611C242D1F5D4EAB76570BB5_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4240,7 +4240,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_Te
 		return;
 	}
 }
-// Method Definition Index: 76979
+// Method Definition Index: 77000
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceDataRecord_get_PerformanceMode_mEF911B8B3207795B86E013D3DFF2679A599D78DF_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4249,7 +4249,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PerformanceDataRecord_get
 		return L_0;
 	}
 }
-// Method Definition Index: 76980
+// Method Definition Index: 77001
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_PerformanceMode_m60B7287BBD83581603283DEE76151A6B88B4C0BD_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4259,7 +4259,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_Pe
 		return;
 	}
 }
-// Method Definition Index: 76966
+// Method Definition Index: 76987
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PerformanceDataRecord_set_PerformanceLevelControlAvailable_m78A1EFC49C88D90E778F7C4C8605662E94B125FF_inline (PerformanceDataRecord_tDF1B7607FB8378B49C42DFFA5AE4A64F62C42F83* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -4279,7 +4279,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD48131
 		return (bool)((((int64_t)((int64_t)(L_1&((int64_t)(std::numeric_limits<int64_t>::max)())))) > ((int64_t)((int64_t)9218868437227405312LL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 80912
+// Method Definition Index: 80933
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A4151B22C44_inline (SubsystemWithProvider_tC72E35EE2D413A4B0635B058154BABF265F31242* __this, const RuntimeMethod* method) 
 {
 	{

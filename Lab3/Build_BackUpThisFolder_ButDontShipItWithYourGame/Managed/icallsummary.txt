@@ -318,6 +318,8 @@ UnityEngine.Application::OpenURL_Injected
 UnityEngine.Application::get_streamingAssetsPath_Injected
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
+UnityEngine.AsyncOperation::InternalDestroy
+UnityEngine.AsyncOperation::InternalSetManagedObject
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput
 UnityEngine.Awaitable::IsNativeAwaitableCompleted
@@ -596,6 +598,7 @@ UnityEngine.GameObject::SetActive_Injected
 UnityEngine.GameObject::TryGetComponentFastPath_Injected
 UnityEngine.GameObject::get_scene_Injected
 UnityEngine.GameObject::set_layer_Injected
+UnityEngine.GameObject::set_tag_Injected
 UnityEngine.GeometryUtility::TestPlanesAABB_Injected
 UnityEngine.GeometryUtility::Internal_ExtractPlanes_Injected
 UnityEngine.Gizmos::DrawIcon_Injected
@@ -977,6 +980,7 @@ UnityEngine.Object::ToString_Injected
 UnityEngine.Object::set_hideFlags_Injected
 UnityEngine.Object::get_hideFlags_Injected
 UnityEngine.Object::FindObjectsByType
+UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectDispatcher::CreateDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DestroyDispatchSystemHandle
 UnityEngine.ObjectDispatcher::DispatchTransformDataChangesAndClear
@@ -1424,6 +1428,7 @@ UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
 UnityEngine.SceneManagement.SceneManager::MoveGameObjectToScene_Injected
+UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::GetMSAASamples
 UnityEngine.Screen::get_height
@@ -1470,6 +1475,7 @@ UnityEngine.Sprite::get_rect_Injected
 UnityEngine.Sprite::get_uv_Injected
 UnityEngine.Sprite::get_vertices_Injected
 UnityEngine.SpriteRenderer::get_sprite_Injected
+UnityEngine.SpriteRenderer::set_color_Injected
 UnityEngine.SpriteRenderer::set_hasSpriteChangeEvents_Injected
 UnityEngine.SpriteRenderer::set_sprite_Injected
 UnityEngine.SubsystemBindings::DestroySubsystem
