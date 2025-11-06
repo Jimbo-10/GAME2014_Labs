@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using PinePie.SimpleJoystick;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class PlayerBehavior : MonoBehaviour
     InputActionAsset inputAsset;
 
     InputAction moveInput;
+
+    [SerializeField]
+    JoystickController screenJoystick;
 
     Rigidbody2D rb;
 
@@ -51,7 +55,8 @@ public class PlayerBehavior : MonoBehaviour
 
     void Move()
     {
-        float xAxisValue = moveInput.ReadValue<Vector2>().x;
+
+        float xAxisValue = screenJoystick.InputDirection.x; //moveInput.ReadValue<Vector2>().x;
 
         if (xAxisValue != 0f)
         {
@@ -64,9 +69,9 @@ public class PlayerBehavior : MonoBehaviour
 
     void Jump()
     {
-        float yAxisValue = moveInput.ReadValue<Vector2>().y;
+        float yAxisValue = screenJoystick.InputDirection.y; //moveInput.ReadValue<Vector2>().y;
 
-        if (isGrounded && yAxisValue > 0)
+        if (isGrounded && yAxisValue > 0.7f)
         {
             rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
         }
